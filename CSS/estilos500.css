@@ -1,0 +1,30 @@
+/*Estilos para que el ícono del menú desaparezca*/
+
+nav i{
+    font-size: 0px;
+}
+
+nav{
+    position: relative;
+}
+
+nav ul{
+    display: block;
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: -5px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li:hover{
+    background-color: crimson;
+}
+
+header img{
+    width: 80px;
+    margin-left: 20px;
+}
